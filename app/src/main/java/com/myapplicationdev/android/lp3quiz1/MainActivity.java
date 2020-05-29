@@ -122,6 +122,8 @@ public class MainActivity extends AppCompatActivity {
                 builder.setContentTitle("LP3 Quiz1");
                 builder.setContentText("Expand to see content");
                 builder.setSmallIcon(android.R.drawable.btn_star_big_off);
+                builder.setStyle(new NotificationCompat.InboxStyle());
+
                 builder.setContentIntent(pIntent);
                 builder.setAutoCancel(true);
 
